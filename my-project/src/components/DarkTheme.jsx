@@ -12,7 +12,7 @@ const DarkTheme = () => {
   return (
     <div className=" flex justify-center items-center h-screen bg-neutral-100 ">
       <div className="bg-background dark:bg-foreground text-foreground dark:text-background max-w-80   p-8 rounded-2xl border border-neutral-900 dark:border-neutral-100 flex flex-col overflow-hidden">
-        <h1 className="text-3xl font-bold animate-me">Hello Jaan</h1>
+        <h1 className="text-3xl font-bold animate-me">Lorem, ipsum.</h1>
         <p className="mt-4 text-lg">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi
           eligendi delectus labore velit quo deleniti vel, dolore accusantium
@@ -32,8 +32,6 @@ const DarkTheme = () => {
 
 export default DarkTheme;
 
-
-
-const cardTitle = ({children, className}) => {
-  return <div className={cn}></div>
-}
+const cardTitle = ({ children, className }) => {
+  return <div className={cn}></div>;
+};
