@@ -1,5 +1,3 @@
-import { Children } from "react";
-
 const DarkTheme = () => {
   const handleThemeChange = () => {
     const currentTheme = document.documentElement.classList.contains("dark")
@@ -31,7 +29,3 @@ const DarkTheme = () => {
 };
 
 export default DarkTheme;
-
-const cardTitle = ({ children, className }) => {
-  return <div className={cn}></div>;
-};
